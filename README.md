@@ -1,70 +1,60 @@
 # RevisaLab
 
-> Aprenda programação explicando, não decorando.
+> Aprenda programação praticando, explicando e executando.
 
-RevisaLab é uma plataforma open source de aprendizado ativo focada em disciplinas de programação, especialmente conteúdos teóricos como Engenharia de Software.
+RevisaLab é uma plataforma open source de aprendizado ativo voltada para estudantes de programação, combinando exercícios interativos, lacunas e execução de código para reforçar a compreensão real dos conteúdos.
 
-O projeto utiliza técnicas de **active recall** e exercícios estruturados (como lacunas) para ajudar alunos a realmente entender conceitos — não apenas memorizar respostas.
+Diferente de métodos tradicionais baseados em leitura ou múltipla escolha, o RevisaLab incentiva o aluno a **pensar, escrever e testar** suas respostas.
 
 ---
 
 ## 🎯 Problema
 
-Grande parte do ensino em programação, principalmente em disciplinas teóricas, é baseada em leitura passiva ou múltipla escolha.
+No ensino de programação, é comum que alunos:
 
-Isso faz com que alunos:
-- não saibam explicar conceitos
-- confundam definições importantes
-- esqueçam rapidamente o conteúdo
+- consumam conteúdo de forma passiva
+- acertem questões sem realmente entender
+- tenham dificuldade em explicar conceitos
+- não pratiquem código o suficiente
+
+Isso resulta em aprendizado superficial e dificuldade na aplicação prática.
 
 ---
 
 ## 💡 Solução
 
-O RevisaLab propõe um modelo de aprendizado baseado em:
+O RevisaLab propõe um modelo baseado em aprendizado ativo, utilizando:
 
 - 🧠 Active Recall (recordação ativa)
+- 🧩 Exercícios com lacunas (texto e código)
+- 💻 Execução de código em tempo real
 - ✍️ Formulação de respostas
-- 🧩 Exercícios com lacunas estruturadas
 - 📊 Feedback imediato
 
 ---
 
 ## ⚙️ Como funciona
 
-1. O aluno seleciona uma disciplina (ex: Engenharia de Software)
-2. Escolhe um tópico
-3. Responde exercícios interativos (lacunas, associações, etc.)
+1. O aluno escolhe uma área (ex: lógica, JavaScript, engenharia de software)
+2. Seleciona um tópico
+3. Resolve exercícios interativos, como:
+   - preenchimento de lacunas
+   - completar trechos de código
+   - execução de código
 4. Recebe feedback imediato
 5. Evolui com base no desempenho
 
 ---
 
-## 🧪 Exemplo de exercício
+## 🧪 Exemplos de exercícios
 
-> Software genérico é desenvolvido para um ________ amplo, enquanto software sob encomenda é feito para um ________ específico.
-
----
-
-## 🚀 Objetivo do projeto
-
-- Melhorar o aprendizado de disciplinas teóricas
-- Criar um ambiente colaborativo entre alunos
-- Servir como ferramenta de apoio para universidades
-- Evoluir como um projeto open source educacional
+### 🧩 Lacuna conceitual
+> Software genérico é desenvolvido para um ________ amplo.
 
 ---
 
-## 🤝 Contribuição
-
-Contribuições são muito bem-vindas!
-
-Você pode contribuir com:
-- novas questões
-- melhorias no sistema
-- correções de bugs
-- sugestões de features
-
----
-
-## 📂 Estrutura do projeto (inicial)
+### 💻 Lacuna em código
+```js
+function soma(a, b) {
+  return a ___ b;
+}
